@@ -12,18 +12,26 @@
   <body>
     <div class="wrapper">
       <header>
-        <nav class="transparent">
+        <nav class="white">
           <div class="nav-wrapper container">
+            <a href="#" data-target="slide-out" class="sidenav-trigger black-text"
+              ><i class="material-icons">menu</i></a
+            >
             <a href="/" class="brand-logo">
               <img src="/img/logo.svg" alt="" srcset="" />
             </a>
-            <ul class="right">
+            <ul class="right hide-on-med-and-down">
               <li><a class="black-text" href="/">Home</a></li>
               <li><a class="black-text" href="/contact.html">Contact</a></li>
               <li><a class="black-text" href="/shop.html">Shop</a></li>
             </ul>
           </div>
         </nav>
+        <ul id="slide-out" class="sidenav">
+          <li><a class="black-text" href="/">Home</a></li>
+          <li><a class="black-text" href="/contact.html">Contact</a></li>
+          <li><a class="black-text" href="/shop.html">Shop</a></li>
+        </ul>
       </header>
 
       <main>
@@ -36,14 +44,15 @@
                 <a href="/order.html" class="btn red"> Order Now</a>
               </div>
             </div>
-            <div class="col m6 valign-wrapper">
-              <img src="/img/illustration.svg" alt="illustration" />
+            <div class="col m6 valign-wrapper hide-on-small-only">
+              <img src="/img/illustration.svg" alt="" class="responsive-img" />
             </div>
           </div>
         </div>
       </main>
-
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/script/main.js"></script>
   </body>
 </html>
