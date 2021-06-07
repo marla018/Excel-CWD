@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>me Tea cal</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="transparent">
+          <div class="nav-wrapper container">
+            <a href="/" class="brand-logo">
+              <img src="/img/logo.svg" alt="" srcset="" />
+            </a>
+            <ul class="right">
+              <li><a class="black-text" href="/">Home</a></li>
+              <li><a class="black-text" href="/contact.html">Contact</a></li>
+              <li><a class="black-text" href="/shop.html">Shop</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="container mainContainer">
+          <div class="row">
+            <div class="col m6 valign-wrapper">
+              <img src="/img/illustration_2.svg" alt="illustration" />
+            </div>
+            <div class="col m6 valign-wrapper">
+              <div class="textContent">
+                <h1 class="red-text">Order Form</h1>
+
+                <form method="get" action="confirm.html">
+                  <div class="input-field">
+                    <input id="name" type="text" class="validate" />
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="input-field">
+                    <input id="address" type="text" class="validate" />
+                    <label for="address">Address</label>
+                  </div>
+                  <div class="input-field">
+                    <input id="contact" type="text" class="validate" />
+                    <label for="contact">Contact No.</label>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <div>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Wintermelon</span>
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Taro</span>
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Hokkaido</span>
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Okinawa</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <h6>Add on:</h6>
+                      <div>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Pearl</span>
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Salted Cream</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">
+                      Confirm Order
+                      <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

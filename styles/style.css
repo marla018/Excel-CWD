@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+}
+
+.mainContainer {
+  height: 100%;
+}
+
+.mainContainer .row {
+  height: 100%;
+}
+
+.mainContainer .row .col {
+  height: 100%;
+}
+
+.textContent ul li {
+  list-style-type: disc;
+  font-size: 3.56rem;
+}
+/*# sourceMappingURL=style.css.map */
