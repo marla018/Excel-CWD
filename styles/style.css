@@ -23,6 +23,6 @@ main {
 }
 
 .textContent ul li {
-  list-style-type: disc;
-  font-size: 3.56rem;
+  list-style-type: disc; /* bullet */
+  font-size: 3.56rem; /* bullet size */
 }
