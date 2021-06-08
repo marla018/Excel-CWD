@@ -1,15 +1,9 @@
 <svg width="64" height="64" viewBox="0 0 126 126" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="63" cy="63" r="63" fill="black" />
-                <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="11" y="39" width="105" height="46">
-                  <path
-                    d="M52.8 85L52.735 57.7L39.345 80.19H34.6L21.275 58.285V85H11.395V39.5H20.105L37.135 67.775L53.905 39.5H62.55L62.68 85H52.8ZM115.205 39.5V85H106.56L83.8751 57.375V85H73.4751V39.5H82.1851L104.805 67.125V39.5H115.205Z"
-                    fill="white"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M63.5 0L76.4096 43.5319H118.186L84.3881 70.4361L97.2977 113.968L63.5 87.0639L29.7023 113.968L42.6119 70.4361L8.81425 43.5319H50.5904L63.5 0Z"
-                    fill="#15BDBD"
-                  />
-                </g>
-              </svg>
+	<circle cx="63" cy="63" r="63" fill="black" />
+	<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="11" y="39" width="105" height="46">
+		<path d="M52.8 85L52.735 57.7L39.345 80.19H34.6L21.275 58.285V85H11.395V39.5H20.105L37.135 67.775L53.905 39.5H62.55L62.68 85H52.8ZM115.205 39.5V85H106.56L83.8751 57.375V85H73.4751V39.5H82.1851L104.805 67.125V39.5H115.205Z" fill="white" />
+	</mask>
+	<g mask="url(#mask0)">
+		<path d="M63.5 0L76.4096 43.5319H118.186L84.3881 70.4361L97.2977 113.968L63.5 87.0639L29.7023 113.968L42.6119 70.4361L8.81425 43.5319H50.5904L63.5 0Z" fill="#15BDBD" />
+	</g>
+</svg>
